@@ -1,0 +1,3 @@
+python isn't great for view
+
+so use angular to read files from ./data/ and refresh

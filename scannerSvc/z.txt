@@ -1,0 +1,67 @@
+Do a quick subprocess.run(7z -t archiveName).returncode==True then delete
+
+
+manager
+
+scan_n_resolve
+obfuscate_fileNames
+encryptFiles
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'" "'.join(file_n_dir_list) instead of " ".join(file_n_dir_list)
+WRITE global var in var changes in defn
+update class defn(s) to be run as bare bones yet initialize all important values ??whats wrong with object creation
+`try:fp=open();except:guiBox(err);with fp:...`	instead of `with open() as fp`
+all print() replaced by logging.appropriate_method()
+
+"C:\Program Files\7-Zip\7z.exe" a -t7z -ms=on -mx9 -m0=PPMd -mo=32 -mmem=192m -mmt -x*.7z "D:/dropbox/projName.7z" "D:/.git"
+
+archive
+format
+solid
+level=Ultra
+method=PPMd
+wordsize=32
+dictSize=192MB
+multithread
+exclude(pattern)
+
+
+
+
+
+
+
+
+"C:\Program Files\7-Zip\7z.exe" a -t{format} -ms=on -mx{#STORE} ?-m0={ZIP}? %s "!! Emtech Foundation _ igniting minds.htm"
+
+
+
+"C:\Program Files\7-Zip\7z.exe" a "HTM-- !! Emtech Foundation _ igniting minds.7z" "!! Emtech Foundation _ igniting minds.h*" "!! Emtech Foundation _ igniting minds_files"
+"C:\Program Files\7-Zip\7z.exe" a -tZIP "HTM-- !! Emtech Foundation _ igniting minds.7z" "!! Emtech Foundation _ igniting minds.h*" "!! Emtech Foundation _ igniting minds_files"
+"C:\Program Files\7-Zip\7z.exe" a -tZIP "HTM-- !! Emtech Foundation _ igniting minds.zip" "!! Emtech Foundation _ igniting minds.h*" "!! Emtech Foundation _ igniting minds_files"
+	"C:\Program Files\7-Zip\7z.exe" a -tZIP -ms=on "HTM-- !! Emtech Foundation _ igniting minds.zip" "!! Emtech Foundation _ igniting minds.h*" "!! Emtech Foundation _ igniting minds_files"
+"C:\Program Files\7-Zip\7z.exe" a -tZIP -mx0 "HTM-- !! Emtech Foundation _ igniting minds.zip" "!! Emtech Foundation _ igniting minds.h*" "!! Emtech Foundation _ igniting minds_files"
+	"C:\Program Files\7-Zip\7z.exe" a -tZIP -mx0 -m0=Store "HTM-- !! Emtech Foundation _ igniting minds.zip" "!! Emtech Foundation _ igniting minds.h*" "!! Emtech Foundation _ igniting minds_files"
+
+"C:\Program Files\7-Zip\7z.exe" a -t7z -ms=0 -mx9 -m0=LZMA -mo=32 -mfb=64 -md=192 "HTM-- !! Emtech Foundation _ igniting minds.zip" "!! Emtech Foundation _ igniting minds.h*" "!! Emtech Foundation _ igniting minds_files"
+"C:\Program Files\7-Zip\7z.exe" a -t7z -m0=LZMA -mx=9 -mfb=64 -md=32m -ms=on "HTM-- !! Emtech Foundation _ igniting minds.zip" "!! Emtech Foundation _ igniting minds.h*" "!! Emtech Foundation _ igniting minds_files"
+	"C:\Program Files\7-Zip\7z.exe" a -t7z -m0=LZMA -mx=9 -mfb=64 -md=32m -mo=32 -ms=on "HTM-- !! Emtech Foundation _ igniting minds.zip" "!! Emtech Foundation _ igniting minds.h*" "!! Emtech Foundation _ igniting minds_files"
+"C:\Program Files\7-Zip\7z.exe" a -t7z -m0=LZMA -mx=9 -ms=on "HTM-- !! Emtech Foundation _ igniting minds.zip" "!! Emtech Foundation _ igniting minds.h*" "!! Emtech Foundation _ igniting minds_files"
+____________________________________________________________________________
+"C:\Program Files\7-Zip\7z.exe" a -t7z -ms=on -mx=0 -mhe -p1234 "webpage.enc" "!! Emtech Foundation _ igniting minds.h*" "!! Emtech Foundation _ igniting minds_files"
